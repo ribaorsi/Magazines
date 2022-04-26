@@ -101,6 +101,7 @@ body {
     flex-wrap: wrap;
 
     margin:auto;
+    margin-left: 60px;
     padding: 80px 60px;
     
     align-items: center;
@@ -114,11 +115,12 @@ body {
 .card {    
     flex-basis: auto;
 
-    margin: 100px 20px;
+    margin: 50px 10px;
     padding: 20px 20px 60px;
     width: 340px;
 
     background-color: #fff;
+    border: solid 1px #33793f;
     
 }
 
@@ -134,18 +136,29 @@ body {
 }
 
 .sub {
-    flex-basis: auto;
+    
+    top: -20px;
+    right: -20px;
+
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+
+    width: 120px;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 12px;
     font-weight: 800;
-    color:#33793f;
+    color:#fff257;
+    background-color: #33793f;
 } 
 
 .title {
   
+    flex-basis: auto;
     padding: 20px 0;
-    color: #666;
+    color: #33793f;
 
     width: auto;
     min-height: 62px;
@@ -153,11 +166,10 @@ body {
     text-align: center; 
     
     
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 400;    
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 800;    
     
-    border-bottom: 1px solid #666;
 }
 
 .text {

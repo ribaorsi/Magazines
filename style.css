@@ -146,7 +146,8 @@ body {
 
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     color:#fff257;
     background-color: #33793f;
 } 
